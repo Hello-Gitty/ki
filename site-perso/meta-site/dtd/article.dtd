@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT articles (article* )>
+<!ELEMENT article (titre,contenu,label,id)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT contenu (#PCDATA)>
+<!ELEMENT label (#PCDATA)>
+<!ELEMENT id (#PCDATA)>

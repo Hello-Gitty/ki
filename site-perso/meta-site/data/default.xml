@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE default SYSTEM "../dtd/basesite.dtd" >
+<default>
+	<about>
+		<titre>A propos</titre>
+		<contenu>
+		Ce site à été créé dans le cadre du jeu de Rôle/parodie polique qu'est [url=http://www.kraland.org]Kraland[/url], ce site sert de présentation/tribune pour le personnage qu'il concerne.
+		
+		Si vous voulez contacter le créateur de ce site vous pouvez passer par [url=http://www.kraland.org/main.php?page=5;1;3;1;0&amp;p1=794"]Kramail[/url].
+		
+		Ce site se base entièrement sur du xml pour le contenu, c'est du fait maison à l'arrache.
+		</contenu>
+		<label>A propos</label>
+	</about>
+	<error>
+		<titre>Erreur</titre>
+		<contenu>L'article demandé n'existe pas.</contenu>
+		<label>label</label>
+
+	</error>
+	<greet>
+		<titre>Bienvenue</titre>
+		<contenu>
+		Ici c'est un peu conceptuel, c'est ici que tout va commencer, on va débuter doucement par expliquer ce que c'est. 
+		
+		Donc c'est un peu mon petit chez moa de Monstre vous voyez, j'essaie d'y ranger des documents qui parle de moa, de mes copains Monstres, de ce que j'essaye de faire sur le cybermonde, le convertir à un nouveau courant Naariste.
+		
+		Alors pour continuer doucement, moa c'est Meta-Carpe, je suis le truc vert que on peut voir en bas à droite.  Je ne suis pas un poisson, aucun lien de parenté, fils unique, bien que ça n'a pas de sens dans mon cas.
+		
+		Je suis un adepte de la technique "viser le mou", qui permet lors d'une chute de ne pas se faire trop mal.
+		
+		Je finirais la rapide présentation par une charade: 
+
+		Vos mains sont constituées d'homonymes.
+		Les miennes aussi, surtout même.
+
+  
+		
+		
+		
+		
+		</contenu>
+		<label>Accueil</label>
+	</greet>
+	
+	<sitetitle>Meta Antre de Meta-Carpe</sitetitle>
+	<titleh>L'antre de Meta-Carpe</titleh>
+</default>

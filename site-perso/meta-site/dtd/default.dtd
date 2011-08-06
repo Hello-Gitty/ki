@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT default (about, error, greet, sitetitle, titleh )>
+<!ELEMENT about (titre,contenu,label)>
+<!ELEMENT error (titre,contenu,label)>
+<!ELEMENT greet (titre,contenu,label)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT contenu (#PCDATA)>
+<!ELEMENT label (#PCDATA)>
+<!ELEMENT sitetitle (#PCDATA)>
+<!ELEMENT titleh (#PCDATA)>
