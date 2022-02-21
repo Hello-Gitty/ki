@@ -1,0 +1,99 @@
+Objet de base : 
+{
+  "uniteTravail": 1,
+  "produitPar": 1,
+  "nom": "nomObjSimple1",
+  "categorie": "Objet",
+  "batiment": "nomBat",
+  "image": "url de l\u0027image",
+  "charge": 1,
+  "capacite": 0,
+  "description": "Une description",
+  "niveau": 1
+}
+
+Objet compose : 
+{
+  "composants": [
+    {
+      "nomObjet": "nomComposant1",
+      "nombre": 2
+    },
+    {
+      "nomObjet": "nomComposant2",
+      "nombre": 1
+    }
+  ],
+  "uniteTravail": 1,
+  "produitPar": 1,
+  "nom": "nomObjCompose",
+  "categorie": "Objet",
+  "batiment": "nomBat",
+  "image": "url de l\u0027image",
+  "charge": 1,
+  "capacite": 0,
+  "description": "Une description",
+  "niveau": 1
+}
+
+Batiment : 
+{
+  "nom": "nomBat",
+  "noms": [
+    "nomBatNiv1",
+    "nomBatNiv2",
+    "nomBatNiv3",
+    "nomBatNiv4"
+  ],
+  "commercePrive": false,
+  "produits": [
+    {
+      "composants": [
+        {
+          "nomObjet": "nomComposant1",
+          "nombre": 2
+        },
+        {
+          "nomObjet": "nomComposant2",
+          "nombre": 1
+        }
+      ],
+      "uniteTravail": 1,
+      "produitPar": 1,
+      "nom": "nomObjCompose",
+      "categorie": "Objet",
+      "batiment": "nomBat",
+      "image": "url de l\u0027image",
+      "charge": 1,
+      "capacite": 0,
+      "description": "Une description",
+      "niveau": 1
+    },
+    {
+      "uniteTravail": 1,
+      "produitPar": 1,
+      "nom": "nomObjSimple2",
+      "categorie": "Objet",
+      "batiment": "nomBat",
+      "image": "url de l\u0027image",
+      "charge": 1,
+      "capacite": 0,
+      "description": "Une description",
+      "niveau": 1
+    }
+  ],
+  "composants": [
+    {
+      "uniteTravail": 1,
+      "produitPar": 1,
+      "nom": "nomObjSimple1",
+      "categorie": "Objet",
+      "batiment": "nomBat",
+      "image": "url de l\u0027image",
+      "charge": 1,
+      "capacite": 0,
+      "description": "Une description",
+      "niveau": 1
+    }
+  ]
+}

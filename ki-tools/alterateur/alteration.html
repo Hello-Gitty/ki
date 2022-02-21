@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>L'altérateur</title>
+<script type="text/javascript" src="functions.js"></script>
+<script type="text/javascript" src="alteration.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body onload="init()">
+Sélectionnez une catégorie : <select id="listCat"></select> puis un objet : <select id="listObj"></select> quantité : <input type="text" id="inpNbProd" onchange="changeNombre(this.value)" value="1" />
+<br/>
+Base ut : <input type="text" id="inpBaseUt" value="1.2" disabled /> 
+<br/>
+<input type="checkbox" id="isEntrain" onchange="changeModif(this.id, this.checked)"/><label for="isEntrain">Entrain</label><input type="checkbox" id="isChaine" onchange="changeModif(this.id, this.checked)"/><label for="isChaine">Chaine production</label> 
+<br/>
+<input type="checkbox" id="isFilon" onchange="changeModif(this.id, this.checked)"/><label for="isFilon">Filon</label><input type="checkbox" id="isProdEnc" onchange="changeModif(this.id, this.checked)"/><label for="isProdEnc">Production encouragée</label>
+<br/>
+Potion rapidité: <input id="pNon" type="radio" name="isPopo" value="non" checked="checked" onchange="changePourcentUt(this.name, this.value)"/><label for="pNon">Non</label><input id="pOui" type="radio" name="isPopo" value="oui" onchange="changePourcentUt(this.name, this.value)"/><label for="pOui">Oui</label><input id="pCrit" type="radio" name="isPopo" value="crit" onchange="changePourcentUt(this.name, this.value)"/><label for="pCrit">Critique</label>
+<br/>
+Inflexion de temps: <input id="iNon" type="radio" name="isInflex" value="non" checked="checked" onchange="changePourcentUt(this.name, this.value)"/><label for="iNon">Non</label><input id="iOui" type="radio" name="isInflex" value="oui" onchange="changePourcentUt(this.name, this.value)"/><label for="iOui">Oui</label><input id="iCrit" type="radio" name="isInflex" value="crit" onchange="changePourcentUt(this.name, this.value)"/><label for="iCrit">Critique</label>
+<br/>
+
+<div id="div-decomp"></div> 
+
+
+
+</body>
+</html>

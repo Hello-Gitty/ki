@@ -1,0 +1,25 @@
+input {
+	width: 40px;
+	text-align: right;
+}
+
+input[type="text"]:disabled {
+	background: #dddddd;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid;
+	text-align: center;
+}
+
+td {
+	border-collapse: collapse;
+	border: 1px solid;
+}
+
+th {
+	background-color: #444444;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>KRALAND WEB BUILDER</title>
+<script type="text/javascript" src="functions.js"></script>
+<script type="text/javascript" src="builder.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body onload="init()">
+
+	<div class="command"><!-- Import/export -->
+		<label for="input_import_export">CODE PERSONNAGE: </label><input id="input_import_export" type="text"/>	
+		<input id="button_import" type="button" value="IMPORTER" onClick="load()"/>
+		<input id="button_export" type="button" value="EXPORTER" onClick="save()"/>	
+		<input id="button_reset" type="button" value="RESETER" onClick="kiKrash()"/>
+	</div>
+
+	<div class="left"><!-- Fiche personnage -->
+		<div id="conteneur_character" class="personnage"></div>
+		<div id="conteneur_vocations" class="personnage"></div>
+		<div id="conteneur_caracteristiques" class="personnage"></div>
+		<div id="conteneur_competences" class="personnage"></div>
+	</div>
+	
+	
+	<div><!-- Ordres -->
+	
+	
+	
+	</div>
+	
+	<div class ="center"><!-- commentaire -->
+		<label for="area_description">DESCRIPTION: </label><br/>
+		<textarea id="area_description" rows="10" cols="130"></textarea><br/>
+		<input id="button_apercu" type="button" value="EXPORT TEXT" onClick="apercu()"/>
+	</div>
+	
+	<div id="modal" > <!-- Modal -->
+	
+	<br/>
+		<textarea id="area_apercu" rows="10" cols="130" readonly="readonly""></textarea>
+	<!-- 	<input type="button" value="Fermer"/> -->
+	</div>
+	
+	<!-- TODO : 
+	* fonction affichage
+	* Liste des vocations
+	* liste des ordres
+	* affichage des potentiels
+
+	 -->
+	
+</body>
+</html>

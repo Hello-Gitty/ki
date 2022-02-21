@@ -1,0 +1,73 @@
+
+html {
+	background: #f9f9f9;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: justify;
+}
+
+input[type="text"] {
+	text-align: left;
+}
+
+textarea:read-only {
+  background-color: #ccc;
+}
+
+.personnage  {
+ 	margin-bottom: 4px;
+}
+
+.selectText {
+	width:155px;
+}
+
+.left {
+	float: left;
+	margin-right: 10px;
+	padding: 2px;
+	border : 1px solid #d7d7d7;
+}
+
+.command  { 
+	background: #f4f4ea;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+	border : 1px solid black;
+}
+
+input[type="text"]:disabled {
+	background: #dddddd;
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid;
+	text-align: center;
+	background: #f4f4ea;
+}
+
+td {
+	border-collapse: collapse;
+	border: 1px solid;
+}
+
+th {
+	background-color: #444444;
+	color: #ffffff;
+	border: 1px solid #444444;
+}
+
+p.obj {
+	margin: 1px;
+	margin-left: 14px;
+	border-left: 1px dotted #000000;
+	border-collapse: collapse;
+}
+
+label {
+	padding-left: 7px;
+}
+
